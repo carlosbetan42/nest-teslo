@@ -21,3 +21,5 @@ docker-compose up -d
 ```
 http://localhost:3001/api/seed
 ```
+
+#Production notes:
