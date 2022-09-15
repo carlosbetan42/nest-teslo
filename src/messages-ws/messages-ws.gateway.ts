@@ -34,8 +34,6 @@ export class MessagesWsGateway
       return;
     }
 
-    console.log({ payload });
-
     this.wss.emit(
       'clients-updated',
       this.messagesWsService.getConnectedClients(),
